@@ -1,0 +1,8 @@
+{
+    "uuid": "1440@jvlianodorneles",
+    "name": "1440",
+    "description": "Keep a constant track of how many minutes you have left until the day is over, especially if you're someone striving to improve productivity — like students, professionals working with tight deadlines, or anyone trying to organize their daily routine more efficiently.",
+    "version": 0.1,
+    "icon": "hourglass",
+    "gettext-domain": "1440@jvlianodorneles"
+}
