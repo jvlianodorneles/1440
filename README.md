@@ -23,23 +23,14 @@ To manually install the 1440 applet in your Cinnamon environment, follow the ste
     cd ~/.local/share/cinnamon/applets
     ```
 
-2.  **Create the applet directory:**
+2.  **Clone the applet repository:**
 
-    Create a new folder with the applet's UUID (which is `1440@jvlianodorneles`):
-
-    ```bash
-    mkdir 1440@jvlianodorneles
-    ```
-
-3.  **Copy the applet files:**
-
-    Move or copy the `applet.js` and `metadata.json` files (and any other relevant files, such as `locale/` and `po/` folders) to the newly created directory:
+    Navigate to the Cinnamon applets directory and clone the repository:
 
     ```bash
-    cp -r /path/to/your/applet/files/* ~/.local/share/cinnamon/applets/1440@jvlianodorneles/
+    cd ~/.local/share/cinnamon/applets
+    git clone https://github.com/jvlianodorneles/1440.git 1440@jvlianodorneles
     ```
-
-    **Note:** Replace `/path/to/your/applet/files/` with the actual path where you downloaded or cloned the applet files.
 
 4.  **Restart Cinnamon (or the panel):**
 
